@@ -19,6 +19,15 @@ j,LATIN SMALL LETTER J,i,,
 ⟧,MATHEMATICAL RIGHT WHITE SQUARE BRACKET,,true,
 [ꝭꝵ᷑ꝰ̶̧̇ꝯ÷⁊ħłꝈØꝓꝒꝑꝐꝙꝘꝗẜđ&♡℥𐆒],Base medieval abbreviation,,true,true
 [./:⟦⟧‸\-],Allowed ponctuation,,true,true
-[\u0303],Combining Horizontal Tilde,,true,true
+[\u0303\u033E],Combining Tildes,,true,true
 [\u002c],COMMA,.,false,true
 ,LATIN SMALL LETTER Q LIGATED WITH FINAL ET,q,,
++,PLUS SIGN,,true,
+~,DECORATIVE TILDE,,,
+[,MS 1729: SQUARE BRACKET,),,
+],MS 1729: SQUARE BRACKET,),,
+=,MS 1729: Ending hyphenization,-,,
+['’],MS 1729: QUOTATION MARK,',,true
+[\u0300],MS 1729: COMBINING GRAVE ACCENT,,true,true
+;,MS 1729: SEMICOLON,:,,
+?,QUESTION MARK,:,,
