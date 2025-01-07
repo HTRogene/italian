@@ -1,33 +1,125 @@
-schema: https://htr-united.github.io/schema/2023-06-27/schema.json
-title: HTRogène Medieval Italian Manuscripts
-url: https://github.com/HTRogene/italian
 authors:
-  - name: Giorgia
-    roles:
-    - transcriber
-    surname: Rubin
-  - name: Federico
-    orcid: 0000-0002-7810-7735
-    roles:
-    - project-manager
-    - quality-control
-    surname: Boschetti
-  - name: Franz
-    roles:
-    - project-manager
-    surname: Fischer
-  - name: Alix
-    orcid: 0000-0002-0136-4434
-    roles:
-    - project-manager
-    surname: Chagué
-  - name: Thibault
-    surname: Clérice
-    orcid: 0000-0003-1852-9204
-    roles:
-      - project-manager
-      - quality-control
-institutions: []
+- name: Giorgia
+  roles:
+  - transcriber
+  surname: Rubin
+- name: Federico
+  orcid: 0000-0002-7810-7735
+  roles:
+  - project-manager
+  - quality-control
+  surname: Boschetti
+- name: Franz
+  roles:
+  - project-manager
+  surname: Fischer
+- name: Alix
+  orcid: 0000-0002-0136-4434
+  roles:
+  - project-manager
+  surname: Chagué
+- name: Thibault
+  orcid: 0000-0003-1852-9204
+  roles:
+  - project-manager
+  - quality-control
+  surname: Clérice
+automatically-aligned: false
+characters:
+  members:
+  - e
+  - a
+  - o
+  - i
+  - t
+  - n
+  - l
+  - r
+  - s
+  - u
+  - c
+  - d
+  - m
+  - p
+  - .
+  - h
+  - g
+  - f
+  - q
+  - ̃
+  - b
+  - '&'
+  - z
+  - ̀
+  - E
+  - A
+  - ꝑ
+  - C
+  - x
+  - S
+  - M
+  - ħ
+  - '-'
+  - D
+  - L
+  - ⁊
+  - ̧
+  - ':'
+  - R
+  - U
+  - y
+  - P
+  - I
+  - ꝯ
+  - ł
+  - Q
+  - F
+  - ꝗ
+  - B
+  - N
+  - "'"
+  - T
+  - O
+  - G
+  - '1'
+  - '3'
+  - X
+  - ꝓ
+  - ͣ
+  - H
+  - '2'
+  - ͥ
+  - '0'
+  - 
+  - )
+  - ͬ
+  - '4'
+  - '6'
+  - ͤ
+  - '5'
+  - ͦ
+  - Z
+  - /
+  - '8'
+  - đ
+  - ̾
+  - '9'
+  - ẜ
+  - ͧ
+  - ꝙ
+  - Y
+  - '7'
+  - K
+  - ‸
+  - ꝷ
+  - +
+  - ℥
+  - ꝵ
+  - ÷
+  - ꝰ
+  - ͭ
+  mode: NFD
+citation-file-link: https://github.com/HTRogene/italian/blob/main/CITATION.CFF
 description: >-
   HTRogène is an exploratory project funded by Biblissima+, aiming to develop
   generic models for automatic transcription of medieval and early modern
@@ -38,26 +130,33 @@ description: >-
 
   The dataset is designed to support the creation of robust and reliable HTR
   models for Italian manuscripts.
-project-name: Biblissima+ HTRogène
-language:
-  - ita
-production-software: eScriptorium + Kraken
-automatically-aligned: false
-script:
-  - iso: Latn
-script-type: only-manuscript
-time:
-  notBefore: '1401'
-  notAfter: '1600'
+format: Alto-XML
 hands:
   count: 1-per-folder
   precision: estimated
+institutions: []
+language:
+- ita
 license:
   name: CC-BY 4.0
   url: https://creativecommons.org/licenses/by/4.0/
-format: Alto-XML
+production-software: eScriptorium + Kraken
+project-name: Biblissima+ HTRogène
+schema: https://htr-united.github.io/schema/2023-06-27/schema.json
+script:
+- iso: Latn
+script-type: only-manuscript
+time:
+  notAfter: '1600'
+  notBefore: '1401'
+title: HTRogène Medieval Italian Manuscripts
+url: https://github.com/HTRogene/italian
 volume:
-  - metric: lines
-    count: 2893
-citation-file-link: https://github.com/HTRogene/italian/blob/main/CITATION.CFF
-
+- count: 102423
+  metric: characters
+- count: 89
+  metric: files
+- count: 2893
+  metric: lines
+- count: 296
+  metric: regions
